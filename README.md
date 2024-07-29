@@ -9,8 +9,10 @@ This repository contains simple cleanup concepts for Arma 3. The scripts provide
 - Designed for use in the Arma 3 editor
 
 ## Usage
+Simply plug these scripts into any scenario, it's recommended to run these server side.
 
-To use the cleanup scripts, follow these steps:
+## Updating the scripts
+To update the cleanup scripts, follow these steps:
 
 1. Place the items you want to clean up in the Arma 3 editor.
 2. Use the following code snippet to add models to the cleanup list:
@@ -34,7 +36,7 @@ private _modelInfoArray = [];
 _modelInfoArray
 ```
 
-3. You can use `typeOf cursorObject` to get classnames to add to the list, or simply log info from objects via the editor. The snippet will print the model asset names for the entire list of classnames, which can then be plugged into the scripts.
+3. You can use `typeOf cursorObject` to get classnames to add to the list, or simply `log info` from objects via the editor. The snippet will print the model asset names for the entire list of classnames, which can then be plugged into the scripts.
 
 ## License
 
